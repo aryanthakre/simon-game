@@ -1,0 +1,86 @@
+body {
+  text-align: center;
+  background-color: #00bcd4;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #dd2c00;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.game-rules-html {
+  font-family: 'Press Start 2P', cursive;
+}
+a:hover{
+  color: #dd2c00;
+}
+.footer-text{
+  color: #dd2c00;
+  font-family: 'Press Start 2P', cursive;
+}
+
+/* Games Rules */
+
+.rules-heading{
+  font-family: 'Press Start 2P', cursive;
+  color: #dd2c00;
+  font-size: 2.5rem;
+}
+
+.rules-para{
+  font-size: 2rem;
+  text-align: left;
+  font-family: 'Francois One', sans-serif;
+
+}
+
+
+.rules-footer{
+  font-size:  1.5rem;
+  font-family: 'Francois One', sans-serif;
+
+}
